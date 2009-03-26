@@ -2,7 +2,7 @@
 
 = 成品图=
 
-Add your content here.
+[http://pass-arm9200.googlecode.com/files/pass_arm2.jpg]
 
 
 = Details =
