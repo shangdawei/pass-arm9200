@@ -5,8 +5,8 @@
 
 1.把下面这一行加入到/etc/apt/source.list中
 deb http://www.emdebian.org/debian/ lenny main
-
-2.执行 sudo apt-get install gcc-4.1-arm-linux-gnueabi
+2.执行 sudo apt-get update 更新索引
+2.执行 sudo apt-get install gcc-4.1-arm-linux-gnueabi，会自动安装所有东西。
 
 当然，你也可以安装GCC的其它版本。
 执行 apt-cache search arm-linux， 可以搜到有哪些版本可以安装。
