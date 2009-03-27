@@ -1,6 +1,6 @@
-#summary One-sentence summary of this page.
+#summary Pass ARM 成品图片
 
-= 成品图=
+= 成品图片=
 
 [http://pass-arm9200.googlecode.com/files/pass_arm2.jpg]
 [http://pass-arm9200.googlecode.com/files/pass_arm%20%E6%88%90%E5%93%81.jpg]
