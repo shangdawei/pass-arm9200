@@ -18,7 +18,7 @@ deb http://www.emdebian.org/debian/ lenny main
 
 = Windows 下编译环境 =
 
-1.下载cygwin的安装文件[WikiSyntax files/setup.exe], 或者去[http://cygwin.com/]下载最新的，按照提示一步一步装好。
+1.下载cygwin的安装文件[http://pass-arm9200.googlecode.com/files/setup.exe], 或者去[http://cygwin.com/]下载最新的，按照提示一步一步装好。
 
 2.去[http://www.codesourcery.com/sgpp/lite/arm/portal/subscription3057]下载Sourcery G++ Lite， 这是一套完整的工具，包括arm-none-linux-gnueabi-xxx等各种程序。
 
