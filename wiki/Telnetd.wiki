@@ -18,7 +18,7 @@
 Detailed info about ptmx/pts/pty please refer to `man pty`
 
 = Test by another PC =
-
+{{{
 # telnet 192.168.0.2
 Trying 192.168.0.2...
 Connected to 192.168.0.2.
@@ -31,6 +31,7 @@ Welcome to the real world!
 bin      etc      lib      mnt      sbin     usr
 dev      home     linuxrc  proc     sys      var
 
+}}}
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
