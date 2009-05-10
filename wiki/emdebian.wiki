@@ -8,8 +8,8 @@ http://www.emdebian.org/emdebian/rootfs.html
 
 = Details =
 
-1.apt-get install emdebian-tools
-2.emsandbox
-3.tar zxf 
-4.boot the rootfs
-5../emsecondstage
+# 1.apt-get install emdebian-tools
+# 2.emsandbox
+# 3.tar zxf 
+# 4.boot the rootfs
+# 5../emsecondstage
