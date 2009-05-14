@@ -1,5 +1,5 @@
 #labels Phase-Implementation,Phase-Deploy
-# 内核2.6.28.9的补丁
+#Patches for Kernel 2.6.28.9
 
 = 内核下载 =
 
