@@ -1,0 +1,9 @@
+# Kernel #
+
+Get the kernel 2.6.28.9 from kernel.org.
+
+
+
+# BusyBox #
+
+BusyBox 1.13.3. needs arm-linux-gcc 4.0 to compile

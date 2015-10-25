@@ -1,0 +1,22 @@
+# Debian Lenny 下编译环境 #
+
+1.把下面这一行加入到/etc/apt/source.list中
+deb http://www.emdebian.org/debian/ lenny main
+2.执行 sudo apt-get update 更新索引
+2.执行 sudo apt-get install gcc-4.1-arm-linux-gnueabi，会自动安装所有东西。
+
+当然，你也可以安装GCC的其它版本。
+执行 apt-cache search arm-linux， 可以搜到有哪些版本可以安装。
+
+其它LINUX 操作系统，自己去google吧。
+
+
+
+
+# Windows 下编译环境 #
+
+1.下载cygwin的安装文件http://pass-arm9200.googlecode.com/files/setup.exe, 或者去http://cygwin.com/下载最新的，按照提示一步一步装好。
+
+2.去http://www.codesourcery.com/sgpp/lite/arm/portal/subscription3057下载Sourcery G++ Lite， 这是一套完整的工具，包括arm-none-linux-gnueabi-xxx等各种程序。
+
+注：用这个工具本人编译最新的U-boot没有成功。(FIX ME)

@@ -1,0 +1,31 @@
+# Configuration in rootfs #
+
+1. In dir /dev
+  * mknod ptmx c 5 2
+  * mkdir pts
+
+2. In file /etc/fstab, adding the following line
+  * devpts          /dev/pts        devpts  gid=5,mode=620 0 0
+
+
+3.Maybe, a user is needed. After the OS boot up;
+  * adduser -s test
+  * (set passwd)
+
+Detailed info about ptmx/pts/pty please refer to `man pty`
+
+# Test by another PC #
+```
+# telnet 192.168.0.2
+Trying 192.168.0.2...
+Connected to 192.168.0.2.
+Escape character is '^]'.
+
+(none) login: test
+Password: 
+Welcome to the real world!
+# ls
+bin      etc      lib      mnt      sbin     usr
+dev      home     linuxrc  proc     sys      var
+
+```
